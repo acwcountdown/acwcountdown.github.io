@@ -19,13 +19,13 @@
   </head>
   
   <div>
-    <h1> Time until Christmas: </h1>  
+    <h1> Time until Results: </h1>  
     <h1 id="demo"; >?</h1>
   </div>
  
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 25, 2017 0:0:0").getTime();
+var countDownDate = new Date("Feb 19, 2018").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
   // Get todays date and time
@@ -42,7 +42,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "IT'S CHRISTMAS!";
+    document.getElementById("demo").innerHTML = "Hope it went well :)";
   }
 }, 1000);
 </script>
